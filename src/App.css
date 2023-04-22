@@ -1,38 +1,97 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  
+    width: 100%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .nav-styles{
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(39, 36, 36);
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.3rem; 
+    
+  }   
+  .title{
+    background-color: rgb(160, 85, 9);    
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;  
   }
-  to {
-    transform: rotate(360deg);
+  .newadd-btn{
+    margin-top: 30px;
+    padding: 12px;
   }
-}
+  .Addform{ 
+    padding: 20px; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 193, 169);
+  }
+  .Addsubmit{  
+    margin-left: 45%;
+    background-color:rgb(160, 85, 9)!important; 
+    font-size: 20px !important;  
+  } 
+  .Editform{ 
+    padding: 20px; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 193, 169);
+  }
+  .Editsubmit{  
+    margin-left: 45%;
+    background-color:rgb(160, 85, 9)!important; 
+    font-size: 20px !important;  
+  } 
+  .user-content{
+    padding: 50px;
+    margin: 50px;
+    margin-top: 20px;
+  }
+  .thead{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    background-color: rgb(234, 123, 12);   
+    
+  }
+  tbody{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    background-color: rgb(235, 193, 169);    
+  }
+  .viewbtn{
+    background-color:rgb(225, 114, 23) !important; 
+    color: #fff !important;
+  }
+  .delebtn{
+    background-color:rgb(198, 47, 65) !important; 
+    color: #fff !important;
+  }  
+  img{ 
+    width: 100%;
+    height: 100%;  
+ }
+  
+  footer{
+    position: fixed;
+    width: 100%;
+    padding: 20px;  
+    bottom: 0;
+    height: 60px;
+    background-color:rgb(39, 36, 36);
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+  
+  }
+ 
+  
+  
